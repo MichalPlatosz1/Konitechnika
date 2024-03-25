@@ -1,5 +1,5 @@
 .Index > main{
-    height: 100vh;
+    height: fit-content;
 
     background:
     /* top, transparent black, faked with gradient */ 

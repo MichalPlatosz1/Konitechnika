@@ -3,7 +3,14 @@
     padding: 2vw 4vw;
     display: flex;
     justify-content: center;
-    background-color: #415ea1;
+
+    background:
+            /* top, transparent black, faked with gradient */
+            linear-gradient(rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.7)),
+            url("../index/bg.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
 }
 
 .Sklep > div {
@@ -17,7 +24,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #2e4374;
+    background-color: #3E5C76;
+    box-shadow: inset 0px 0px 50px #2c4255;
     color: #F0EBD8;
     padding: 3vw 4vw;
     border-radius: 15px;
