@@ -32,11 +32,13 @@
 .Index > header > nav{
     background-color: #3E5C76;
     padding: 1vw 2vw;
+    cursor: pointer;
 }
 
 .Index > header > nav > img{
     width: 100px;
 }
+
 
 .Index > header > nav > .options {
     max-height: 0;
