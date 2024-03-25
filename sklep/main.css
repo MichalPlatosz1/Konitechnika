@@ -1,0 +1,30 @@
+.Sklep{
+    font-family: "Roboto", sans-serif;
+    padding: 2vw 4vw;
+    display: flex;
+    justify-content: center;
+}
+
+.Sklep > div {
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+}
+
+.Sklep > div > .Card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2e4374;
+    color: #F0EBD8;
+    padding: 3vw 4vw;
+    border-radius: 15px;
+    width: 20vw;
+    max-width: 20vw;
+}
+
+.Sklep >div > .Card > img{
+    width: 200px;
+    height: 300px;
+    border-radius: 25px;
+}
