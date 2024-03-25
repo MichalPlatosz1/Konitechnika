@@ -45,7 +45,7 @@
     padding: 1vw 2vw;
     background-color: #3E5C76;
     transition: 200ms ease-in-out;
-    transform: translatex(200px);
+    transform: translatex(300px);
     display: flex;
     flex-direction: column;
     border-bottom-left-radius: 15px;
